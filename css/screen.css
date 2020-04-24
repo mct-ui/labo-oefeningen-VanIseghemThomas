@@ -481,6 +481,39 @@ a:focus {
 }
 
 
+.c-link-cta{
+    flex: 1 1 auto;
+    padding: 16px 32px;
+    letter-spacing: initial;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #033AA7 0%, #0052F7 51%, #0052F7 100%);
+    box-shadow: 0 0 1px #8EC7FF;
+}
+
+.c-link-cta:hover{
+    background-position: right center;
+}
+
+@media (min-width: 768px) {
+    .c-link-cta{
+        
+    }
+}
+
+
+.c-nav__link--meta,
+.c-nav__link--meta:visited,
+.c-nav__link--meta:active{
+    color: white;
+}
+
+.c-nav__link--meta:hover,
+.c-nav__link--meta:focus{
+    color: white;
+}
 
 
 /*------------------------------------*\
