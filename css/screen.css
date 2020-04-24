@@ -179,16 +179,7 @@ a:focus {
     color: #8EC7FF;
 }
 
-/*------------------------------------*\
-  #COMPONENTS
-\*------------------------------------*/
-.c-logo{
-    height: 32px;
-}
 
-.c-logo__symbol{
-    height: 100%;
-}
 
 /*------------------------------------*\
   #OBJECTS
@@ -238,7 +229,7 @@ a:focus {
 .o-container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 70em;
+    max-width: 56.4em; /* 56.4 * 20px = 1128px */
 }
 
 /*
@@ -397,6 +388,100 @@ a:focus {
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
+.c-logo{
+    height: 32px;
+}
+
+.c-logo__symbol{
+    height: 100%;
+}
+
+.c-nav{
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.c-nav__item{
+    margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+    .c-nav__item{
+        margin-bottom: 0;
+    }
+}
+
+
+.c-nav__link{
+    text-decoration: none;
+    padding: 8px 0;
+    letter-spacing: 2px;
+}
+
+@media (min-width: 768px) {
+    .c-nav__link{
+        padding: 8px 16px;
+        letter-spacing: initial;
+    }
+}
+
+.c-nav__link,
+.c-nav__link:visited,
+.c-nav__link:active{
+    color: white;
+    
+}
+
+.is-selected .c-nav__link,
+.c-nav__link:hover,
+.c-nav__link:focus{
+    color: #DBEDFF;
+    text-shadow: 0 0 8px #DBEDFF;
+
+}
+
+.c-nav__link--meta,
+.c-nav__link--meta:visited,
+.c-nav__link--meta:active{
+    color: white;
+}
+
+.c-nav__link--meta:hover,
+.c-nav__link--meta:focus{
+    color: white;
+}
+
+
+.c-nav__list{
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .c-nav__list{
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    .c-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.c-header__nav{
+    display: block;
+}
+@media (min-width: 768px) {
+
+    .c-header__nav{
+        display: flex;
+    }
+}
+
+
+
 
 /*------------------------------------*\
   #UTILITIES
