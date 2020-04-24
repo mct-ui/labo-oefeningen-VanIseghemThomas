@@ -34,6 +34,7 @@ html {
     font-size: 18px;
     line-height: 32px;
     font-family: "Clear Sans", Helvetica, arial, sans-serif;
+    font-weight: 200;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -176,6 +177,17 @@ a:active,
 a:hover,
 a:focus {
     color: #8EC7FF;
+}
+
+/*------------------------------------*\
+  #COMPONENTS
+\*------------------------------------*/
+.c-logo{
+    height: 32px;
+}
+
+.c-logo__symbol{
+    height: 100%;
 }
 
 /*------------------------------------*\
