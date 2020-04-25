@@ -515,6 +515,25 @@ a:focus {
     color: white;
 }
 
+.c-figure {
+    position: relative;
+}
+
+.c-figure__caption {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: right;
+    width: 260px;
+    padding: 16px;
+    color: black;
+    background: #FFFFFF;
+    border-right: 4px solid #0053FB;
+}
+
 
 /*------------------------------------*\
   #UTILITIES
